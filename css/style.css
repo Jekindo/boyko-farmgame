@@ -1,0 +1,31 @@
+:root {
+	--primary-white-color: #ffffff;
+	--white-bc-color: #FDFCEF;
+	--gradient-bc-color: (102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+	--title-text-color: #000000;
+	--primary-text-color: #000000;
+	--button-bc-color: #FF6861;
+}
+
+/*! БАЗОВЫЕ И ОБНУЛЯЮЩИЕ СТИЛИ */
+h1,h2,h3,h4,h5,h6 {
+	margin-top: 0;
+}
+
+body {
+	background-color: var(--white-bc-color);
+	color: var(--primary-text-color);
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.36;
+}
+
+
+/*! CONTAINER */
+.container {
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
