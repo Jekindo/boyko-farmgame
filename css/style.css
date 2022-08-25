@@ -33,3 +33,64 @@ body {
 
 
 
+/*! HERO */
+.hero {
+	margin-bottom: 120px;
+	padding-top: 60px;
+}
+
+/* LOGO */
+.logo {
+	color: var(--primary-text-color);
+
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.2;
+
+	display: flex;
+	align-items: center;
+	margin-bottom: 82px;
+}
+
+.logo img {
+	margin-right: 10px;
+}
+
+/* FLEX-CONTAINER */
+.hero-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero-body {
+	flex-basis: 465px;
+}
+
+.hero-title {
+	color: var(--title-text-color);
+
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.4;
+
+	margin-bottom: 30px;
+}
+
+.hero-text {
+	margin-bottom: 30px;
+}
+
+/* BUTTON */
+.button {
+	background-color: var(--button-bc-color);
+	color: var(--primary-white-color);
+	border-radius: 100px;
+
+	text-decoration: none;
+	font-weight: 700;
+
+	display: inline-block;
+	padding: 22px 70px;
+}
