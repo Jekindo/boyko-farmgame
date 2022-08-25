@@ -1,7 +1,7 @@
 :root {
 	--primary-white-color: #ffffff;
 	--white-bc-color: #FDFCEF;
-	--gradient-bc-color: (102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+	--gradient-bc-color: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
 	--title-text-color: #000000;
 	--primary-text-color: #000000;
 	--button-bc-color: #FF6861;
@@ -159,4 +159,7 @@ body {
 
 .what-list-text {
 	margin: 0;
-} 
+}
+
+
+
