@@ -145,8 +145,8 @@ body {
 	margin-bottom: 41px;
 }
 
-.what-list-img {
-	margin-right: 34px;
+.what-list-body {
+	margin-left: 34px;
 }
 
 .what-list-title {
@@ -196,4 +196,24 @@ body {
 	text-align: center;
 
 	padding: 120px 0;
+}
+
+
+.button-test{
+	background-color: blue;
+	color: #fff;
+	border-radius: 10px;
+
+	text-decoration: none;
+	font-size: 30px;
+	
+	display: inline-block;
+	padding: 20px 70px;
+}
+
+
+.button-test:hover {
+	background-color: tomato;
+
+	transition: .5s;
 }
