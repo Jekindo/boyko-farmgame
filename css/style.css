@@ -163,3 +163,28 @@ body {
 
 
 
+/*! ACTION */
+
+/* FLEX-CONTAINER */
+.action-wrap {
+	background: var(--gradient-bc-color);
+	border-radius: 60px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding: 75px 125px;
+}
+
+.action-body {
+	flex-basis: 475px;
+}
+
+.action-title {
+	margin-bottom: 24px;
+}
+
+.action-text {
+	margin-bottom: 24px;
+}
