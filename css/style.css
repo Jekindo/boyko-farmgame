@@ -83,6 +83,7 @@ body {
 
 .hero-body {
 	flex-basis: 465px;
+	padding-right: 15px;
 }
 
 .hero-title {
@@ -179,6 +180,7 @@ body {
 
 .action-body {
 	flex-basis: 475px;
+	padding-right: 15px;
 }
 
 .action-title {
