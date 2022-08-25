@@ -24,6 +24,13 @@ body {
 
 
 
+/*! SECTION */
+.section{
+	padding-top: 120px;
+}
+
+
+
 /*! CONTAINER */
 .container {
 	max-width: 1120px;
@@ -35,7 +42,6 @@ body {
 
 /*! HERO */
 .hero {
-	margin-bottom: 120px;
 	padding-top: 60px;
 }
 
@@ -98,3 +104,59 @@ body {
 
 
 /*! SECTION "WHAT" */
+
+/* ОБЩИЙ СТИЛЬ ЗАГОЛОВКОВ */
+.title {
+	color: var(--title-text-color);
+
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.4;
+}
+
+.what-title {
+	text-align: center;
+
+	margin-bottom: 70px;
+}
+
+/* КОНТЕЙНЕР ДЛЯ СЕКЦИИ "WHAT" */
+.what-container {
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+/* СПИСОК "Про что игра" */
+.what-list {
+	list-style: none;
+
+	margin: 0;
+	padding: 0;
+}
+
+.what-list-item {
+	display: flex;
+	align-items: flex-start;
+}
+
+.what-list-item:not(:last-child) {
+	margin-bottom: 41px;
+}
+
+.what-list-img {
+	margin-right: 34px;
+}
+
+.what-list-title {
+	color: var(--title-text-color);
+
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 1.4;
+
+	margin-bottom: 11px;
+}
+
+.what-list-text {
+	margin: 0;
+} 
