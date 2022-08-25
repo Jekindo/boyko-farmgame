@@ -188,3 +188,12 @@ body {
 .action-text {
 	margin-bottom: 24px;
 }
+
+
+
+/*! FOOTER */
+.footer {
+	text-align: center;
+	
+	padding: 120px 0;
+}
