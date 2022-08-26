@@ -24,7 +24,7 @@ body {
 
 
 
-/*! ОБЩИЙ СТИЛЬ ЗАГОЛОВКОВ */
+/*! УТИЛИТЫ */
 .title {
 	color: var(--title-text-color);
 
@@ -33,16 +33,10 @@ body {
 	line-height: 1.4;
 }
 
-
-
-/*! SECTION */
 .section{
 	padding-top: 120px;
 }
 
-
-
-/*! CONTAINER */
 .container {
 	max-width: 1120px;
 	margin: 0 auto;
@@ -51,8 +45,8 @@ body {
 
 
 
-/*! HERO */
-.hero {
+/*! HEADER */
+.header {
 	padding-top: 60px;
 }
 
@@ -75,24 +69,24 @@ body {
 }
 
 /* FLEX-CONTAINER */
-.hero-row {
+.header-row {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.hero-body {
+.header-body {
 	flex-basis: 465px;
 	padding-right: 15px;
 }
 
-.hero-title {
+.header-title {
 	font-size: 50px;
 
 	margin-bottom: 30px;
 }
 
-.hero-text {
+.header-text {
 	margin-bottom: 30px;
 }
 
@@ -112,9 +106,6 @@ body {
 
 
 /*! SECTION "WHAT" */
-
-
-
 .what-title {
 	text-align: center;
 
