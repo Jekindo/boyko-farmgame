@@ -38,7 +38,7 @@ body {
 }
 
 .container {
-	max-width: 1120px;
+	max-width: 1130px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
@@ -160,14 +160,14 @@ body {
 
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
+	column-gap: 100px;
 
 	padding: 75px 125px;
 }
 
 .action-body {
 	flex-basis: 475px;
-	padding-right: 15px;
 }
 
 .action-title {
