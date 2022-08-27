@@ -1,188 +1,193 @@
 :root {
-	--primary-white-color: #ffffff;
-	--white-bc-color: #FDFCEF;
-	--gradient-bc-color: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
-	--title-text-color: #000000;
-	--primary-text-color: #000000;
-	--button-bc-color: #FF6861;
+  --primary-white-color: #ffffff;
+  --white-bc-color: #fdfcef;
+  --gradient-bc-color: linear-gradient(102deg, #fff6df 17.38%, #ffdfde 81.25%);
+  --title-text-color: #000000;
+  --primary-text-color: #000000;
+  --button-bc-color: #ff6861;
 }
 
 /*! БАЗОВЫЕ И ОБНУЛЯЮЩИЕ СТИЛИ */
-h1,h2,h3,h4,h5,h6 {
-	margin-top: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
 }
 
 body {
-	background-color: var(--white-bc-color);
-	color: var(--primary-text-color);
+  background-color: var(--white-bc-color);
+  color: var(--primary-text-color);
 
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 1.36;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.36;
 }
-
-
 
 /*! УТИЛИТЫ */
 .title {
-	color: var(--title-text-color);
+  color: var(--title-text-color);
 
-	font-weight: 700;
-	font-size: 40px;
-	line-height: 1.4;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.4;
 }
 
-.section{
-	padding-top: 120px;
+.section {
+  padding-top: 120px;
 }
 
 .container {
-	max-width: 1110px;
-	margin: 0 auto;
+  max-width: 1110px;
+  margin: 0 auto;
 }
-
-
 
 /*! HEADER */
 .header {
-	padding-top: 60px;
+  padding-top: 60px;
 }
 
 /* LOGO */
 .logo {
-	color: var(--primary-text-color);
+  color: var(--primary-text-color);
 
-	text-decoration: none;
-	font-weight: 700;
-	font-size: 25px;
-	line-height: 1.2;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.2;
 
-	display: flex;
-	align-items: center;
-	margin-bottom: 82px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 82px;
 }
 
 .logo img {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 
 /* FLEX-CONTAINER */
 .header-row {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-body {
-	flex-basis: 465px;
-	padding-right: 15px;
+  flex-basis: 465px;
+  padding-right: 15px;
 }
 
 .header-title {
-	font-size: 50px;
+  font-size: 50px;
 
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .header-text {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 /* BUTTON */
 .button {
-	background-color: var(--button-bc-color);
-	color: var(--primary-white-color);
-	border-radius: 100px;
+  background-color: var(--button-bc-color);
+  color: var(--primary-white-color);
+  border-radius: 100px;
 
-	text-decoration: none;
-	font-weight: 700;
+  text-decoration: none;
+  font-weight: 700;
 
-	display: inline-block;
-	padding: 22px 70px;
+  display: inline-block;
+  padding: 22px 70px;
 }
-
-
 
 /*! SECTION "WHAT" */
 .what-title {
-	text-align: center;
+  text-align: center;
 
-	margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 /* КОНТЕЙНЕР ДЛЯ СЕКЦИИ "WHAT" */
 .what-container {
-	max-width: 720px;
-	margin: 0 auto;
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 /* СПИСОК "Про что игра" */
 .what-list {
-	
 }
 
 .what-list-item {
-	display: flex;
-	align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 34px;
 }
 
 .what-list-item:not(:last-child) {
-	margin-bottom: 41px;
+  margin-bottom: 41px;
 }
 
 .what-list-body {
-	margin-left: 34px;
+  /* margin-left: 34px; */
 }
 
 .what-list-title {
-	font-size: 30px;
+  font-size: 30px;
 
-	margin-bottom: 11px;
+  margin-bottom: 11px;
 }
 
 .what-list-text {
-	margin: 0;
+  margin: 0;
 }
-
-
 
 /*! ACTION */
 
 /* FLEX-CONTAINER */
 .action-wrap {
-	background: var(--gradient-bc-color);
-	border-radius: 60px;
+  background: var(--gradient-bc-color);
+  border-radius: 60px;
 
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	column-gap: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 100px;
 
-	padding: 75px 125px;
+  padding: 75px 125px;
 }
 
 .action-body {
-	flex-basis: 475px;
+  flex-basis: 475px;
 }
 
 .action-title {
-	margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .action-text {
-	max-width: 370px;
-	margin-bottom: 24px;
+  max-width: 370px;
+  margin-bottom: 24px;
 }
-
-
 
 /*! FOOTER */
 .footer {
-	text-align: center;
+  text-align: center;
 
-	padding: 120px 0;
+  padding: 120px 0;
 }
+
+.copyright {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+
+
+
 
 
 
@@ -190,65 +195,63 @@ body {
 
 /** Large: 992px - 1199px */
 @media (max-width: 1199px) {
-	.container {
-		max-width: 960px;
-	}
+  .container {
+    max-width: 960px;
+  }
 }
 
 /** Medium: 768px - 991px */
 @media (max-width: 991px) {
-	.container {
-		max-width: 720px;
-	}
+  .container {
+    max-width: 720px;
+  }
 
+  /*! HEADER */
+  /* LOGO */
+  .logo {
+    justify-content: center;
+  }
 
-	/*! HEADER */
-	/* LOGO */
-	.logo {
-		justify-content: center;
-	}
+  /* КОНТЕНТ "ШАПКИ" */
+  .header-row {
+    text-align: center;
 
-	/* КОНТЕНТ "ШАПКИ" */
-	.header-row {
-		text-align: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    row-gap: 51px;
+  }
 
-		justify-content: center;
-		flex-wrap: wrap-reverse;
-		row-gap: 51px;
-	}
+  .header-body {
+    flex-basis: auto;
+    padding-right: 0;
+  }
 
-	.header-body {
-		flex-basis: auto;
-		padding-right: 0;
-	}
+  /*! ACTION */
+  /* FLEX-CONTAINER */
+  .action-wrap {
+    text-align: center;
 
+    flex-wrap: wrap-reverse;
+    row-gap: 100px;
+    padding: 100px 144px;
+  }
 
-	/*! ACTION */
-	/* FLEX-CONTAINER */
-	.action-wrap {
-		text-align: center;
-		
-		flex-wrap: wrap-reverse;
-		row-gap: 100px;
-		padding: 100px 144px;
-	}
-
-	.action-text {
-		margin-left: auto;
-		margin-right: auto;
-	}
+  .action-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /** Small: 576px - 767px */
 @media (max-width: 767px) {
-	.container {
-		max-width: 540px;
-	}
+  .container {
+    max-width: 540px;
+  }
+
+ 
+  /*! ACTION */
+  .action-wrap {
+	padding: 70px 37px;
+  }
 }
 
-/** Extra small: opx (320px) - 575px */
-@media (max-width: 575px) {
-	.container {
-		padding: 0 15px;
-	}
-}
