@@ -19,6 +19,10 @@ h6 {
   margin-top: 0;
 }
 
+html {
+		scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--white-bc-color);
   color: var(--primary-text-color);
