@@ -200,6 +200,43 @@ body {
 	.container {
 		max-width: 720px;
 	}
+
+
+	/*! HEADER */
+	/* LOGO */
+	.logo {
+		justify-content: center;
+	}
+
+	/* КОНТЕНТ "ШАПКИ" */
+	.header-row {
+		text-align: center;
+
+		justify-content: center;
+		flex-wrap: wrap-reverse;
+		row-gap: 51px;
+	}
+
+	.header-body {
+		flex-basis: auto;
+		padding-right: 0;
+	}
+
+
+	/*! ACTION */
+	/* FLEX-CONTAINER */
+	.action-wrap {
+		text-align: center;
+		
+		flex-wrap: wrap-reverse;
+		row-gap: 100px;
+		padding: 100px 144px;
+	}
+
+	.action-text {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 /** Small: 576px - 767px */
